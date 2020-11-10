@@ -1,7 +1,7 @@
 {
-  "name": "typescript boilerplate",
+  "name": "private_channel_bot",
   "version": "0.1.0",
-  "description": "",
+  "description": "a discord bot to create private channels on demand",
   "main": "src/index.ts",
   "scripts": {
     "start:dev": "nodemon",
@@ -10,9 +10,17 @@
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix"
   },
-  "author": "Supporterino",
+  "author": "Supporterino <lars@roth-kl.de> (https://supporterino.de)",
   "license": "GPL-3.0",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Supporterino/PrivateChannelBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Supporterino/PrivateChannelBot/issues"
+  },
   "dependencies": {
+    "discord.js": "^12.4.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.7",
