@@ -13,14 +13,16 @@
   "author": "Supporterino <lars@roth-kl.de> (https://supporterino.de)",
   "license": "GPL-3.0",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Supporterino/PrivateChannelBot.git"
+    "type": "git",
+    "url": "https://github.com/Supporterino/PrivateChannelBot.git"
   },
   "bugs": {
     "url": "https://github.com/Supporterino/PrivateChannelBot/issues"
   },
   "dependencies": {
-    "discord.js": "^12.4.1"
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
+    "tslog": "^2.11.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.7",
